@@ -5,7 +5,7 @@ import random
 import sys
 
 #Opening file with comments
-f = open("com111.txt","r")
+f = open("com1111.txt","r")
 txt = f.read()
 f.close()
 
