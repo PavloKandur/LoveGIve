@@ -49,7 +49,7 @@ def startBot(message):
             myCom = getCom()
             mess = f'Ти така <b><i>{str(myCom)}</i></b>,тому я тебе і кохаю'
             bot.send_message(message.chat.id,f'{mess} 💞❤💋',parse_mode='html')
-            time.sleep(86400.0)
+            time.sleep(3600.0)
     elif message.text=='End':
         slc-=1
         bot.send_message(message.chat.id,f"Кохання припинено =(. Щоб я знову почав працювати напиши 'StartLove'")
